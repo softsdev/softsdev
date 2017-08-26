@@ -1,0 +1,87 @@
+/* 
+    Created on : 17 Jan, 2016, 2:17:23 PM
+    Author     : Shyam Makwana
+*/
+
+body {
+    background-color: transparent; 
+}
+
+#toz-options-list .ui-sortable-helper {
+    display: table;
+}
+
+#toz-options-list .move-column {
+    cursor: move;
+}
+
+#toz-options-list .option-column-placeholder {
+    border:2px dashed #f00;
+    box-sizing: border-box;
+    visibility: visible !important;
+}
+
+.column-delete {
+    position: relative;
+}
+
+span.readonly {
+    position: relative;
+    display: block;
+}
+.readonly > textarea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0 none transparent;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+#themeoptionsz input.ng-invalid.ng-dirty {
+	border:1px solid red; 
+    box-shadow: none;
+    /*background-color: rgba(255,0,0,0.2);*/
+}
+
+#themeoptionsz input {
+    transition: all 0.6s;
+}
+
+#themeoptionsz .invalidField {
+    color: #FF0000;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+        display: none !important;
+}
+
+#themeoptionsz move-icon , #themeoptionsz move-icon img {
+    display: none;
+}
+
+#themeoptionsz .toz_option:hover move-icon {
+    display: block;
+    background: url('../images/move.png') no-repeat 7px 0px;
+    width: 12px;
+    height: 28px;
+}
+
+.widefat td {
+    padding-left: 0px;
+}
+
+.widget td.move-column {
+    padding-left: 10px;
+}
+
+#toz-options-list textarea, 
+#toz-options-list input[type=text] {
+	width: 90%;
+}

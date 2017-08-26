@@ -1,0 +1,12 @@
+<div class="tablenav top">
+    <div class="alignleft actions bulkactions">
+        <select name="action" id="bulk-action-selector-top"  ng-options="field as field.name for field in fieldTypes track by field.value" ng-model="selectedFieldType"  >
+        </select>
+        <input type="button" id="doaction" class="button action" value="Add Field" ng-click="addOption()">
+        <input type="submit" value="Save Changes" ng-disabled="tozForm.$invalid" class="button button-primary" id="submit" name="submit" ng-click="saveOptions(tozForm)">
+    </div>
+    <div class="tablenav-pages one-page">
+        <span class="displaying-num" ng-model="total_items" ng-bind="optionsCount()"> item</span>
+    </div>
+    <br class="clear">
+</div>

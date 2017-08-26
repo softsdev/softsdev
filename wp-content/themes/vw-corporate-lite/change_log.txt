@@ -1,0 +1,116 @@
+Version 1.0
+	i) Intial version Release
+
+Version 1.1
+	i) Theme description changed.
+
+Version 1.1.1
+	i) font awesome licence mentioned in the readme file.
+
+Version 1.2
+	i) Removed pro text from files, added proper format for license in readme.txt file and escape url in header file.
+
+Version 1.2.1
+	i) Escape text output in header file.
+
+Version 1.2.2
+	i) Resolved error issue in template-tags.php file, Resolved layout of archive page, Added minified script file of font awesome, Added translation function to static text, Resolved display header text issue, Removed layout setting panel, Escape email and contact output, Updated translation file and used wp_kses_posts for html option.
+
+Version 1.3
+	i) Remove html code from homepage section and added page list functionality in customizer, Resolved translation issue in category.php file, documentation link changed and translation file updated.
+
+Version 1.3.1
+	i) Escape page ID output and change contact email.
+
+Version 1.3.2
+	i) Resolved responsive layout issue.
+
+Version 1.3.3
+	i) Resolved title and tagline issue.
+
+Version 1.3.4
+	i) Resolved logo and site title issue.
+
+Version 1.3.8
+	i) Screenshot corrected.
+	ii) Files structure corrected.
+
+Version 1.3.9
+	i) Screenshot corrected.
+	ii) Responsive menu fixed.
+
+Version 1.4.0
+	i) Fixing issues
+
+Version 1.4.1
+	i) Fixing issues
+
+Version 1.4.2
+	i) Css Fixes
+
+Version 1.4.3
+	i) Test against themecheck review.
+
+Version 1.4.4
+	i) Change in styling and code to fix look and feel.
+
+Version 1.4.5
+	i) Change in styling and code to fix look and feel and functionality changes.
+
+Version 1.4.6
+	i) Change in styling css and code to fix look and feel and functionality.
+
+Version 1.4.7
+	i) Done the changes in index, 404, footer.php file, fixed some tags duplication and css fixing.
+
+	i) - I have added the width now the it is working properly.
+
+	ii) -  step 1: add new page give title and select featured image.
+
+		   step 2: Go to customizer select slider setting.
+
+		   step 3: select the page which you have made.	
+
+	iii) - I have checked both the html tag "address tag" and "textarea" it is working properly.
+
+Version 1.4.8
+	i) Done the changes in index, 404, footer.php file, fixed some tags duplication and css fixing.
+
+			i) - I have added the width now the it is working properly.
+
+			ii) -  step 1: add new page name as(slide one) give title and select featured image then add new page name as(slide two) give title and select featured image just like above pages add two more pages.
+
+		   step 2: Go to customizer select slider setting.
+
+		   step 3: select four different pages which you have made.	
+
+			iii) - I have checked both the html tag "address tag" and "textarea" it is working properly.
+	
+	ii)  I have done the changes in the responsive it working properly.
+
+	iii) I have remove default from the customizer.
+
+	iv)  I am not adding the default content as the user directly select the content form the customizer.
+
+Version 1.4.9
+
+	i)  I have remove the function from line 256.
+
+	ii) I have done the text to translation ready in customizer.php line 43.
+
+	iii) Added the Font Awesome dual url.
+
+	iv) Added the defaultbanner url in readme file.
+
+Version 1.5.0
+
+	i)Removed content creation through text area and added it through page for oure service section.
+
+Version 1.5.1
+
+	i)Fixed the escaping issue and translation issue in the theme.
+
+Version 1.5.2
+
+	i) Done the theme translation ready.
+	ii) Added the rtl.css file.
